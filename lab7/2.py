@@ -11,7 +11,7 @@ KEY_NEXT = pygame.K_RIGHT
 KEY_PREVIOUS = pygame.K_LEFT
 
 # Set the directory containing your music files
-MUSIC_DIRECTORY = 'C:\\Users\\Nurlan\\Desktop\\PP2_2024\\Lab7\\musics'
+MUSIC_DIRECTORY = 'C:\\Users\\Kairosh\\Desktop\\lab7\\musics'
 
 # Get a list of all music files in the directory
 music_files = [os.path.join(MUSIC_DIRECTORY, f) for f in os.listdir(MUSIC_DIRECTORY) if f.endswith('.mp3') or f.endswith('.wav')]
